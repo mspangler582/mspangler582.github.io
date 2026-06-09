@@ -1,0 +1,97 @@
+/* Style Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* Main background color */
+body {
+    background-color: #041a22;
+}
+/* Navigation Styling */
+nav {
+    background-color: #5f9ea0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+nav h1 {
+    margin: 10px;
+    font-size: 1.5rem;
+    min-width: 450px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+nav ul li {
+    margin: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.25rem;
+}
+nav ul li a:hover {
+    color:#fff;
+}
+
+/* About Styling*/
+
+main {
+    width: 100%;
+}
+section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+    top: 150px;
+}
+p {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 15px 20px;
+    border: 3px solid #5f9ea0;
+    border-radius: 15px;
+    font-size: .75rem;
+}
+#profile_pic {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #5f9ea0;
+    border-radius: 50%;
+}
+
+.grid-tech {
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center
+    
+}
+.grid-tech h2 {
+    width: 100%;
+    display: block;
+}
+.grid-tech ul {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    list-style: none;
+}
+.grid-tech ul li {
+    margin: 0 auto;
+}
