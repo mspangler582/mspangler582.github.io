@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+/* Navigation */
+nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    border-bottom: 1px solid#0590c7;
+}
+#brand {
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    color: #fff;
+}
+nav ul li a:hover {
+    color: #0590c7;
+}
+
+/* Main Styling */
+main {
+    background: #010e23;
+    padding: 10px;
+}
+/* About Styling */
+#about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    background: #000;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #0590c7
+}
+#profile_pic {
+    width: 150px;
+    border-radius: 50%;
+}
+.grid-tech h2 {
+    display: block;
+    text-align: center;
+}
+.grid-tech hr {
+    height: 5px;
+    background: linear-gradient(#fff, #0590c7, #fff);
+    margin: 10px;
+}
+.grid-tech ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+.grid-tech ul li {
+    text-align: center;
+    
+}
+
+/* Projects Styling*/
+#projects {
+    background: #000;
+    margin: 20px 0;
+    border: 1px solid #0590c7;
+}
+#projects h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+}
+.card {
+    justify-items: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 300px;
+    
+
+}
+.card img { 
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.card p {
+    margin: 0 auto;
+    text-align: justify;
+    margin: 5px 5px;
+}
+.card ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card ul li a{
+    background: #0590c7;
+    font-weight: 700;
+    padding: 5px;
+    
+}
+.card ul li a:hover{
+    color: #010e23;
+}
+
+#projects hr {
+    height: 5px;
+    background: linear-gradient(#fff, #0590c7, #fff);
+}
+/* Contact */
